@@ -55,7 +55,6 @@ Turboism 是一个面向 Live2D Cubism 建模流程的功能增强工具。
 
 
 ### 1. 下载压缩包
-压缩包内应该包括如下内容:
 <img width="416" height="430" alt="image" src="https://github.com/user-attachments/assets/6aaacd75-c6e6-4935-a431-9b0555d093ff" />
 
 
