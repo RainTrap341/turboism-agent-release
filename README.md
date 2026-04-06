@@ -54,19 +54,22 @@ Turboism 是一个面向 Live2D Cubism 建模流程的功能增强工具。
 ## 安装与配置
 
 
-### 1. 下载文件
-
-- Agent 文件：`cubism-hook-agent-latest.jar`
-- 配置脚本：`configure_turboism.ps1`
-- 写入脚本：`write_cubism_bat.ps1`
+### 1. 下载压缩包
+压缩包内应该包括如下内容:
+<img width="416" height="430" alt="image" src="https://github.com/user-attachments/assets/6aaacd75-c6e6-4935-a431-9b0555d093ff" />
 
 
 ### 2. 放置文件
 
-将以上文件放在同一目录（例如任意工具目录）。
+解压压缩包到任一目录
 
-### 3. 运行配置脚本
+### 3. 运行安装程序
 
+双击安装.exe进入安装
+
+### 3.1 使用脚本进行安装
+上面的安装程序本质上是脚本的打包, 如果你不信任可执行程序, 请使用脚本安装
+#### 3.1.1
 在 PowerShell 中进入该目录后执行：
 
 ```powershell
@@ -79,17 +82,10 @@ Turboism 是一个面向 Live2D Cubism 建模流程的功能增强工具。
 Set-ExecutionPolicy -Scope Process Bypass
 ```
 
-### 4. 在界面里完成安装
-
-- 选择或扫描你的 Cubism 安装目录
-- 选择要安装的版本
-- 指定使用的 Agent jar（版本号）
-- 点击写入/安装（脚本会更新 `CubismEditor5.bat` 与 `CubismEditor5_d3d.bat`）
 
 ### 5. 验证是否生效
 
-- 使用被写入后的 Cubism 启动脚本启动编辑器
-- 确认编辑器可正常打开，且 Agent 增强功能可用
+正常启动程序即可, 理论上会自动运行
 
 ## 安全声明
 
