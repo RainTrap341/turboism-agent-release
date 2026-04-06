@@ -81,8 +81,7 @@ Turboism 是一个面向 Live2D Cubism 建模流程的功能增强工具。
 Set-ExecutionPolicy -Scope Process Bypass
 ```
 
-
-### 5. 验证是否生效
+### 4. 验证是否生效
 
 正常启动程序即可, 理论上会自动运行
 
